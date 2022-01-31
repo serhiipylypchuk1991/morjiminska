@@ -8,8 +8,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Моржи Минска',
   tagline: 'Клуб спортивного закаливания и зимнего плавания',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  url: 'https://serhiipylypchuk1991.github.io',
+  baseUrl: '/morjiminska/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/morjiminska.jpg',
