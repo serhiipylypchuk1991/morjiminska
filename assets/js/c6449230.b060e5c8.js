@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmorjiminska=self.webpackChunkmorjiminska||[]).push([[525],{4673:function(s){s.exports={blogPosts:[]}}}]);
