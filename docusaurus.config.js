@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Моржи Минска',
-  tagline: 'Клуб спортивного закаливания и зимнего плавания',
+  title: 'Моржи столицы',
+  tagline: 'Клуб закаливания и спортивного зимнего плавания',
   url: 'https://serhiipylypchuk1991.github.io',
   baseUrl: '/morjiminska/',
   onBrokenLinks: 'throw',
@@ -43,7 +43,7 @@ const config = {
     ({
       navbar: {
         hideOnScroll:true,
-        title: 'Моржи Минска',
+        title: 'Моржи столицы',
         logo: {
           alt: 'Morji Minska logo',
           src: 'img/morjiminska.jpg',
@@ -101,7 +101,7 @@ const config = {
             items: [
               {
                 label: 'Facebook',
-                href: 'https://www.facebook.com/people/%D0%9C%D0%BE%D1%80%D0%B6%D0%B8-%D0%9C%D0%B8%D0%BD%D1%81%D0%BA%D0%B0/100045602333589/',
+                href: 'https://www.facebook.com/morjiminskadvs-104638185102463/',
               },
               {
                 label: 'Instagram',
@@ -109,7 +109,7 @@ const config = {
               },
               {
                 label: 'VK',
-                href: 'https://vk.com/',
+                href: 'https://vk.com/id456236387',
               }
             ],
           },
@@ -117,17 +117,25 @@ const config = {
             title: 'Наши партнеры',
             items: [
               {
-                label: 'Партнер 1',
-                href: 'https://vk.com/',
+                label: 'PROSWIM',
+                href: 'https://proswim.by/',
               },
               {
-                label: 'Партнер 2',
-                href: 'https://vk.com/',
+                label: 'Mad Wave',
+                href: 'https://sportstar.by/',
               },
               {
-                label: 'Партнер 3',
-                href: 'https://vk.com/',
+                label: 'ОСВОД',
+                href: 'http://osvod.www.by',
               },
+              {
+                label: 'БФЛА',
+                href: 'https://www.bfla.eu/',
+              },
+              {
+                label: '42195.BY',
+                href: 'https://42195.by/',
+              }
             ],
           },
           {
