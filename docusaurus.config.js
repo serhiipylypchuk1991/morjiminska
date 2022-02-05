@@ -13,7 +13,7 @@ const config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/morjiminska.jpg',
-  organizationName: 'morjiminska', 
+  organizationName: 'serhiipylypchuk1991', 
   projectName: 'morjiminska',
 
   presets: [
@@ -46,7 +46,7 @@ const config = {
         title: 'Моржи столицы',
         logo: {
           alt: 'Morji Minska logo',
-          src: 'img/morjiminska.jpg',
+          src: 'img/morjiminska.png',
         },
         items: [
           {

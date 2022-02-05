@@ -4,43 +4,47 @@ import styles from './HomepageFeatures.module.css';
 
 const FeatureList = [
   {
-    title: 'Блок 1',
-    Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'МСТРБ',
+    img_path: require('../../static/img/mstrb.png').default,
+    link: "https://mst.by/ru/",
     description: (
       <>
-        Информация блока 1
+        Мистерство Спорта и Туризма Республики Беларусь
       </>
-    ),
+    )
   },
   {
-    title: 'Блок 2',
-    Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
+    title: 'БФЛА',
+    img_path: require('../../static/img/bfla.png').default,
+    link: "https://www.bfla.eu/",
     description: (
       <>
-        Информация блока 2
+        Белорусская Федерация Легкой атлетики
       </>
-    ),
+    )
   },
   {
-    title: 'Блок 3',
-    Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
+    title: 'ОСВОД',
+    img_path: require('../../static/img/osvodm.png').default,
+    link: "http://mgoosvod.by/",
     description: (
       <>
-        Информация блока 3
+        ОСВОД МИНСК
       </>
-    ),
-  },
+    )
+  }
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({img_path, link, title, description}) {
   return (
     <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} alt={title} />
-      </div>
+
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
-        <p>{description}</p>
+        <div className="text--center">
+        <img class="dd" src={img_path} alt={title} />
+      </div>
+        <p><a href={link}> {description} </a></p>
       </div>
     </div>
   );

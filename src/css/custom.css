@@ -50,5 +50,14 @@ div.part{
 
 .navbar__title{
   font-size: 19pt;
-  color:#2e4c6dc7;
+  
+  /*color:#2e4c6dc7;*/
+}
+
+h1.hero__title{
+  font-size: 25pt;
+}
+
+div.row h1{
+  text-align: center;
 }
